@@ -1,0 +1,26 @@
+<!DOCTYPE html>
+<html ng-app="app">
+ <head>
+   <meta charset="utf-8">
+      <link rel="icon" href="data:;base64,iVBORw0KGgo=">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0"/>
+   <title></title>
+ </head>
+ <body>
+   <nav>
+     <ul class="">
+       <li class=""> <a ui-sref="home">home</a>  </li>
+       <li class=""> <a ui-sref="about">about</a>  </li>
+     </ul>
+   </nav>
+ <ui-view></ui-view>
+
+<script src="https://ajax.googleapis.com/ajax/libs/angularjs/1.6.3/angular.js"></script>
+<script src="https://cdnjs.cloudflare.com/ajax/libs/angular-ui-router/0.4.2/angular-ui-router.js"></script>
+<script src="app.js"></script>
+<script src="js/aboutCtrl.js"></script>
+<script src="js/homeCtrl.js"></script>
+<script src="js/mainService.js"></script>
+
+</body>
+</html>
